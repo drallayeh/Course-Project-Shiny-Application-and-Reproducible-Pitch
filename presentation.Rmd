@@ -25,7 +25,20 @@ The application allow user to :
 - Select the output to be shown as Jitter or Smooth graph
 - User also can choose what facet row or colum that they want.
 
+## Code
+
+Using the datasets cement, I do some evaluation and this is the simple code to see what data it have :
+
+```{r}
+dataset <- read.csv('mixtures.csv')
+head(dataset)
+```
+
 ## Link to the project and docs
 
 1. shiny Apps : <a href="https://nadiaadila.shinyapps.io/assignmentddp/">Cement Exploration</a>
+2. server.R and ui.R file : <a href="https://github.com/nadiaadila/Course-Project-Shiny-Application-and-Reproducible-Pitch">Link</a>
+
+Hope you enjoy the application. Thank You.
+
 

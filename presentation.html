@@ -118,8 +118,39 @@
 <ul>
 <li>Select the data of x-axis and y-axis based on the variable of the datasets</li>
 <li>Select the output to be shown as Jitter or Smooth graph</li>
-<li>User also can choose what facet row and colum that they want.</li>
-</ul></article></slide>
+<li>User also can choose what facet row or colum that they want.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Code</h2></hgroup><article  id="code">
+
+<p>Using the datasets cement, I do some evaluation and this is the simple code to see what data it have :</p>
+
+<pre class = 'prettyprint lang-r'>dataset &lt;- read.csv(&#39;mixtures.csv&#39;)
+head(dataset)</pre>
+
+<pre >##       Cement BlastFurnaceSlag FlyAsh      Water Superplasticizer
+## 1 0.22309440       0.00000000      0 0.06692832      0.001032844
+## 2 0.22172039       0.00000000      0 0.06651612      0.001026483
+## 3 0.14917003       0.06393001      0 0.10228802      0.000000000
+## 4 0.14917003       0.06393001      0 0.10228802      0.000000000
+## 5 0.08534961       0.05689974      0 0.08251322      0.000000000
+## 6 0.12036199       0.05158371      0 0.10316742      0.000000000
+##   CoarseAggregate FineAggregate Age CompressiveStrength
+## 1       0.4296633     0.2792811  28               79.99
+## 2       0.4331759     0.2775611  28               61.89
+## 3       0.4181247     0.2664872 270               40.27
+## 4       0.4181247     0.2664872 365               41.05
+## 5       0.4204736     0.3547638 360               44.30
+## 6       0.4217195     0.3031674  90               47.03</pre>
+
+</article></slide><slide class=''><hgroup><h2>Link to the project and docs</h2></hgroup><article  id="link-to-the-project-and-docs">
+
+<ol>
+<li>shiny Apps : <a href="https://nadiaadila.shinyapps.io/assignmentddp/">Cement Exploration</a></li>
+<li>server.R and ui.R file : <a href="https://github.com/nadiaadila/Course-Project-Shiny-Application-and-Reproducible-Pitch">Link</a></li>
+</ol>
+
+<p>Hope you enjoy the application. Thank You.</p></article></slide>
 
 
   <slide class="backdrop"></slide>
